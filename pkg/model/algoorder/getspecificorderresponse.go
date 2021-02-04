@@ -21,7 +21,7 @@ type GetSpecificOrderResponse struct {
 		LastActTime     int64  `json:"lastActTime"`
 		OrderCreateTime int64  `json:"orderCreateTime"`
 		OrderStatus     string `json:"orderStatus"`
-		ErrCode         int    `json:"errCode"`
+		ErrCode         string `json:"errCode"`
 		ErrMessage      string `json:"errMessage"`
 	}
 }
