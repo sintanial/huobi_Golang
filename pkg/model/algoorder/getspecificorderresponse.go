@@ -7,7 +7,7 @@ type GetSpecificOrderResponse struct {
 		AccountId       int    `json:"accountId"`
 		Source          string `json:"source"`
 		ClientOrderId   string `json:"clientOrderId"`
-		OrderId         int    `json:"orderId,string"`
+		OrderId         int    `json:"orderId"`
 		Symbol          string `json:"symbol"`
 		OrderPrice      string `json:"orderPrice"`
 		OrderSize       string `json:"orderSize"`
